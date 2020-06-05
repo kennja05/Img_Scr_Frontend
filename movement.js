@@ -243,6 +243,3 @@ function move(direction) {
     currentPosition = { x, y }
   }
 }
-
-
-
