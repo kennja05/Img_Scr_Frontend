@@ -6,6 +6,12 @@ body {
   background-color: black;
 }
 
+.game{
+  height: 95vh;
+  width: 92vw;
+  display: flex;
+}
+
 #board {
   position: relative;
   margin-top: 5%;
@@ -28,11 +34,6 @@ body {
   display: flex;
 }
 
-.game{
-  height: 95vh;
-  width: 92vw;
-  display: flex;
-}
 
 #leaderboard-h2 {
   margin-bottom: 0px;
@@ -44,7 +45,6 @@ body {
   width: 35vw;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-image: url('./assets/images/fieri/flame.gif'); */
   margin-left: 2%;
   margin-top: 5%;
 }

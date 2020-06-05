@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Image Scramble Game</title>
-  <script type="text/javascript" src="movement.js"></script>
-  <script type="text/javascript" src="index.js"></script>
-  <link rel="stylesheet" href="index.css">
-</head>
-<body>
-<div class='game'>
-  <div id="board"></div>
-  <div id="control-panel">
-    <button id='start'></button>
-        <h2 id='gamestarted'></h2>
-        <h2 id='countingnumbers'>0</h2>
-        <div class='counter-timer'>
-          <div class='counter-container'>
-            <h2 id="counter">Move Count</h2>
-            <h1 id="move number">0</h1>
-          </div>
-        <div class='timer-container'>
-          <h2 id="stopwatch">Time Spent in Flavortown</h2>
-          <h2 id='timer'>00:00:00</h2>
+    <head>
+        <meta charset="UTF-8">
+        <title>Image Scramble Game</title>
+        <script type="text/javascript" src="movement.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <div class='game'>
+            <div id="board"></div>
+            <div id="control-panel">
+                <button id='start'></button>
+                <h2 id='gamestarted'></h2>
+                <h2 id='countingnumbers'>0</h2>
+                <div class='counter-timer'>
+                    <div class='counter-container'>
+                        <h2 id="counter">Move Count</h2>
+                        <h1 id="move number">0</h1>
+                    </div>
+                    <div class='timer-container'>
+                        <h2 id="stopwatch">Time Spent in Flavortown</h2>
+                        <h2 id='timer'>00:00:00</h2>
+                    </div>
+                </div>
+                <h2 id="leaderboard-h2">Top Chefs</h2>
+                <ol id='leaderboard'></ol>
+                <p id='statement?'>false</p>
+            </div>
         </div>
-        </div>
-      <h2 id="leaderboard-h2">Top Chefs</h2>
-      <ol id='leaderboard'></ol>
-      <p id='statement?'>false</p>
-    </div>
-</div>
-</body>
+    </body>
+
 </html>
