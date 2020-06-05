@@ -38,6 +38,10 @@ body {
   margin-bottom: 0px;
 }
 
+li{
+  line-height: 15px;
+}
+
 #control-panel {
   color:rgb(219, 35, 71);
   height: 49vw;
