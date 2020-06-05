@@ -142,7 +142,7 @@ function solvedPuzzle() {
 
 function addPlayerToLeader(moves, timeSpent, userInput){
     gameObj = {username: userInput, moves: parseInt(moves), time: timeSpent}
-    fetch('http://localhost:3000/api/v1/games', {
+    fetch('https://image-scrambler-backend.herokuapp.com/api/v1/games', {
       method: "POST",
       headers: {
         'Content-Type': 'application/json'
@@ -150,7 +150,7 @@ function addPlayerToLeader(moves, timeSpent, userInput){
       body: JSON.stringify(gameObj)
     })
     .then(e => {
-      fetch('http://localhost:3000/api/v1/games')
+      fetch('https://image-scrambler-backend.herokuapp.com/api/v1/games')
       .then(resp => resp.json())
       .then(games => games.forEach(game => createLi(game)))
     })

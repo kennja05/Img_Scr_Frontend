@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
   })
 
   const leaderBoard = function(){
-    fetch('http://localhost:3000/api/v1/games')
+    fetch('https://image-scrambler-backend.herokuapp.com/api/v1/games')
     .then(resp => resp.json())
     .then(games => games.forEach(game => createLi(game)))
   }
