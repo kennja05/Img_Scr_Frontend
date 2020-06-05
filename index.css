@@ -1,0 +1,129 @@
+body {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  height: 95vh;
+  width: 99vw;
+  background-color: black;
+}
+
+#board {
+  position: relative;
+  margin-top: 5%;
+  margin-left: 2%;
+  height: 50vw;
+  width: 50vw;
+}
+#board2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 95vh;
+  width: 95vh;
+}
+
+.timer-container{
+  margin-left: 5%; 
+}
+
+.counter-timer{
+  display: flex;
+}
+
+.game{
+  height: 95vh;
+  width: 92vw;
+  display: flex;
+}
+
+#leaderboard-h2 {
+  margin-bottom: 0px;
+}
+
+#control-panel {
+  color:rgb(219, 35, 71);
+  height: 49vw;
+  width: 35vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: url('./assets/images/fieri/flame.gif'); */
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+.tile {
+  position: absolute;
+  top: 0 ;
+  left: 0;
+  width: 33%;
+  height: 33%;
+  border-style: solid;
+  border-color:gray;
+  border-width: 1px;
+  transition: all .2s linear;
+}
+
+#empty {
+  background-image: url("./assets/images/fieri/Guy0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+#piece1 {
+    background-image: url("./assets/images/fieri/Guy1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    z-index: 2;
+}
+#piece2 {
+  background-image: url("./assets/images/fieri/Guy2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+
+}
+#piece3 {
+  background-image: url("./assets/images/fieri/Guy3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+
+}
+#piece4 {
+  background-image: url("./assets/images/fieri/Guy4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+#piece5 {
+  background-image: url("./assets/images/fieri/Guy5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+#piece6 {
+  background-image: url("./assets/images/fieri/Guy6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+#piece7 {
+  background-image: url("./assets/images/fieri/Guy7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+#piece8 {
+  background-image: url("./assets/images/fieri/Guy8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
