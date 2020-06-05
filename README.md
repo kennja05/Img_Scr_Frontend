@@ -1,9 +1,12 @@
-*This repo will be used to connect with the live front end*
-
 Background
 ==========
 
-In order to pass through the gates of Flavortown there are a variety of trials that one must pass - there are physical challenges such as eat a whole plate of trashcan nachos, and get frosted tips at the salon, but in order for there to be balance there must also be mental challenges...
+The game begins by creating a 3x3 grid, with eight of grid segments holding a part of a whole image, and the ninth segment is blank. The nine segments are scrambled in random order at the beginning of the game, and it is then the job of the user to reassemble the image by moving the blank segment around the board by using the arrow keys.
+
+Live Site
+=========
+
+https://image-scrambler-game.herokuapp.com/
 
 Video Demonstration
 ===================
