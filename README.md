@@ -13,34 +13,10 @@ Video Demonstration
 
 https://www.youtube.com/watch?v=BNmb7fpG_LQ
 
-Instructions
-============
+Instructions For Running Locally
+================================
 
-1) Setup
-
-    a) Clone the repo to your local machine and run the command 'cd Image-Scrambler-Game' in the terminal
-    
-    b) Open a second terminal tab
-    
-    c) In the first terminal tab run the command `cd img_scrmblr_backend`
-    
-    d) Enter the commands `rails db:create`, `rails db:migrate`, and finally `rails s`
-    
-    d) In the second terminal tab run the command `open index.html` 
-    
-        i)Alternatively, right click on the index.html file, select 'copy path', and paste it into the browser.
-
-2) Usage
-
-    a) Once setup is complete begin the game by clicking the 'start game' button at the top of the page
-    
-    b) Use the arrow keys to move the white square around
-    
-    c) Move the white square around to reassemble the scrambled image 
-    
-    d) If stuck, the user can click the 'reshuffle' button in order to start back from the beginning 
-    
-    e) The game will be over when the user successfuly assembles the image pieces, or closes the page  
+To run the game on you local machine please visit https://github.com/kennja05/Image-Scrambler-Game and follow the instructions listed there
 
 Features
 ========
