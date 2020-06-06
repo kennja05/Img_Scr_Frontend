@@ -69,7 +69,6 @@ function incrementTimer() {
   if (separateCounter >= 60) {
     minute += 1
     seconds = 0
-    console.log(minute)
   }
   if (minute >= 60) {
     hour += 1
@@ -182,9 +181,6 @@ function smartCounting() {
   counting = parseInt(count.innerText)
   if(p.innerText == 'false'){
   count.innerHTML = counting + 1
-  }
-  if(p.innerText == 'true'){
-    console.log('your move count isnt going up')
   }
 }
 

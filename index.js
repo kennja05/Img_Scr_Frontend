@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
   createGrid()
   renderBox(currentPosition)
   start()
+  console.log('https://github.com/kennja05')
+  console.log('https://github.com/Extraordinarii')
   document.addEventListener('keydown', function (e) {
     const moveLi = document.createElement('li')
     if (e.key === "ArrowRight") {
